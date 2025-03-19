@@ -1,0 +1,13 @@
+spring.application.name=DataBeest
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+spring.datasource.url=jdbc:mariadb://<ip>>:<port>/<database name>
+spring.datasource.username=<database login>
+spring.datasource.password=<database password>
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.properties.hibernate.format_sql=true
+
+server.port=8081
+
+
